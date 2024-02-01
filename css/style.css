@@ -220,7 +220,7 @@ img {
   height: 20px;
   background: url("../images/arrow_down.svg") no-repeat;
   top: 50%;
-  right: -36px;
+  right: -19px;
   transform: translateY(-50%);
   transition: all 0.5s ease-in-out;
 }
@@ -284,6 +284,8 @@ img {
   display: none;
   padding: 0 11px 11px;
   border-radius: 8px;
+  margin-top: 109px;
+
 }
 .accordion__body_img {
   display: flex;
@@ -304,7 +306,7 @@ img {
 .accordion__body_description {
   font-size: 14px;
   line-height: 1.36;
-  color: var(--text);
+  color: white;
 }
 .accordion__body_description p + p {
   margin-top: 7px;
@@ -2182,8 +2184,22 @@ rgba(151,200,255,.44);
   left: 0;
     
   }
-  .btnBlcok__text {
- font-size: 19px;
+  .btnBlcok-2,
+  .btnBlcok,
+  .limited{
+    width: 50%;
+  }
+  .btnBlcok__text-2{
+    font-size: 18px;
+  }
+  .btnBlcok__flex_newPrice,
+  .btnBlcok__flex_oldPrice,
+  .btnBlcok__text{
+    font-size: 13px;
+
+  }
+  .limited span{
+    font-size: 18px;
   }
 }
 
