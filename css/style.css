@@ -555,7 +555,7 @@ img {
   width: fit-content;
   padding: 10px;
   padding-left: 20px;
-  background-color: #67c7ff;
+  background-color: #1e90ff;
 }
 
 .header__tag {
@@ -1299,7 +1299,7 @@ img {
 .btnBlcok__text {
   color: var(--btn-text);
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1309,7 +1309,7 @@ img {
 .btnBlcok__text-2 {
   color: var(--btn-color);
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1322,6 +1322,9 @@ img {
   align-items: center;
   margin-bottom: 20px;
   gap: 13px;
+}
+.clr{
+width: 300px !important;
 }
 @media (max-width: 360px) {
   .chooseCard {
@@ -1639,7 +1642,7 @@ img {
 }
 
 .btnBlcok__second .sectionPresentation__button {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 12px;
   background: var(--btn-color);
   color: var(--btn-text);
@@ -1647,7 +1650,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -2164,6 +2167,12 @@ rgba(151,200,255,.44);
   transition: all 0.3s ease;
   padding: 0;
 }
+@media(max-width:776px){
+  .modal{
+  left: 0;
+    
+  }
+}
 
 .modal .nav__items {
   margin: 0;
@@ -2266,13 +2275,15 @@ rgba(151,200,255,.44);
   color: #000;
   color: #000;
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 600;
   line-height: 86%; /* 17.2px */
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0,0,0,.25);
 }
 .modal__content_link + * {
-  margin-top: 24px;
+  margin-top: 40px;
 }
 .modal__footer {
   padding: 20px 30px;
