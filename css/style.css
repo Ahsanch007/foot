@@ -2172,6 +2172,9 @@ rgba(151,200,255,.44);
   left: 0;
     
   }
+  .btnBlcok__text {
+ font-size: 19px;
+  }
 }
 
 .modal .nav__items {
