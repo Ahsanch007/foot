@@ -169,11 +169,12 @@ img {
 }
 .accordion__header {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   position: relative;
-  padding: 0 15px 0 40px;
+  /* padding: 0 15px 0 40px; */
   height: 40px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .marquee {
@@ -203,16 +204,14 @@ img {
 }
 
 .accordion__header img {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50%);
+  width: 80px;
+  height: auto;
+  padding-bottom: 20px;
 }
 .accordion__header p {
   font-weight: 400;
-  padding-right: 10%;
+  text-align: center;
+  /* padding-right: 10%; */
 }
 .accordion__header::after {
   content: "";
@@ -221,7 +220,7 @@ img {
   height: 20px;
   background: url("../images/arrow_down.svg") no-repeat;
   top: 50%;
-  right: 15px;
+  right: -36px;
   transform: translateY(-50%);
   transition: all 0.5s ease-in-out;
 }
@@ -242,6 +241,14 @@ img {
   top: 50%;
   left: 5px;
   transform: translateY(-50%);
+}
+.accordion__advantages2{
+  text-align: center;
+}
+.accordion__advantages2 img {
+  width: 80px;
+  height: auto;
+  padding-bottom:20px ;
 }
 .accordion__advantages p {
   font-weight: 400;
@@ -1362,7 +1369,7 @@ width: 300px !important;
 }
 
 .sectionPresentation {
-  margin: 100px 0;
+  /* margin: 100px 0; */
 }
 .sectionPresentation__heading {
   margin: 0 auto;
@@ -1526,6 +1533,9 @@ width: 300px !important;
   border: 1px solid var(--br);
   background: var(--bg);
   padding: 20px 16px;
+   /* Add box shadow */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* You can adjust the values as needed */
+  
 }
 
 .review__avatar {
@@ -2096,7 +2106,7 @@ rgba(151,200,255,.44);
   justify-content: space-between;
   width: 100%;
   padding: 15px;
-  background: #000;
+  background: #1e90ff;
   margin-bottom: 16px;
 }
 .nav__block {
@@ -2426,7 +2436,7 @@ rgba(151,200,255,.44);
   font-size: 22px;
   font-weight: 700;
   color: #000;
-  /* text-align: center; */
+  text-align: center;
   margin-bottom: 16px;
   padding: 20px 0px;
   border-top: 1px dotted grey;
