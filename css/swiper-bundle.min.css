@@ -373,7 +373,7 @@ button.swiper-pagination-bullet {
 
 .swiper-pagination-bullet-active {
     opacity: var(--swiper-pagination-bullet-opacity, 1);
-    background: white
+    /* background: white */
 }
 
 .swiper-pagination-vertical.swiper-pagination-bullets,
