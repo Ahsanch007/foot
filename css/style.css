@@ -1717,7 +1717,7 @@ width: 300px !important;
 }
 
 .limited {
-  width: 65%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1873,6 +1873,9 @@ width: 300px !important;
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
 }
 
 .swiper-button-prev {
@@ -2188,9 +2191,7 @@ rgba(151,200,255,.44);
     
   }
 
-  .limited{
-    width: 50%;
-  }
+ 
   .btnBlcok__text-2{
     font-size: 20px;
   }
