@@ -2187,22 +2187,21 @@ rgba(151,200,255,.44);
   left: 0;
     
   }
-  .btnBlcok-2,
-  .btnBlcok,
+
   .limited{
     width: 50%;
   }
   .btnBlcok__text-2{
-    font-size: 18px;
+    font-size: 20px;
   }
   .btnBlcok__flex_newPrice,
   .btnBlcok__flex_oldPrice,
   .btnBlcok__text{
-    font-size: 13px;
+    font-size: 20px;
 
   }
   .limited span{
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
