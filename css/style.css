@@ -1872,7 +1872,7 @@ width: 300px !important;
 .swiper-container {
   position: relative;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   min-height: 500px;
   display: flex;
   align-items: center;
