@@ -204,7 +204,7 @@ img {
 }
 
 .accordion__header img {
-  width: 80px;
+  width: 60px;
   height: auto;
   padding-bottom: 20px;
 }
@@ -246,7 +246,7 @@ img {
   text-align: center;
 }
 .accordion__advantages2 img {
-  width: 80px;
+  width: 60px;
   height: auto;
   padding-bottom:20px ;
 }
@@ -1257,7 +1257,8 @@ img {
   background: var(--btn-color);
   text-align: center;
   padding: 10px;
-  width: 65%;
+  /* width: 65%; */
+  width: 100%;
   display: inline-block;
   margin-bottom: 20px;
   display: flex;
@@ -1273,7 +1274,8 @@ img {
   background: var(--bg);
   text-align: center;
   padding: 10px;
-  width: 65%;
+  /* width: 65%; */
+  width: 100%;
   display: inline-block;
   margin-bottom: 20px;
   display: flex;
@@ -1308,7 +1310,7 @@ img {
 .btnBlcok__text {
   color: var(--btn-text);
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1318,7 +1320,7 @@ img {
 .btnBlcok__text-2 {
   color: var(--btn-color);
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1739,7 +1741,7 @@ width: 300px !important;
   color: white;
   text-align: center;
   font-family: Montserrat;
-  font-size: 35px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -2028,6 +2030,7 @@ width: 300px !important;
   text-align: center;
   padding: 12px 0px;
   border-radius: 10px;
+  border: 2px solid white;
   background: linear-gradient(180deg,
     rgba(8, 77, 126, 0) 0%,
     rgba(8, 77, 126, 0.42) 100%
@@ -2045,7 +2048,9 @@ width: 300px !important;
 0 12px
 rgba(151,200,255,.44);
 }
-
+.header__size_items .size.active {
+  border: 2px solid #000;
+}
 .size__none {
   text-align: center;
   padding: 12px 0px;
@@ -2068,18 +2073,16 @@ rgba(151,200,255,.44);
   width: calc((100% - 20px) / 5);
 }
 
-.header__size_items .size.active {
-  border: 2px solid #000;
-}
+
 
 .header__tag--black {
   margin-bottom: 15px;
-  padding-left: 35px;
+  padding-right: 35px;
   color: var(--preBg);
   background-image: url(../images/time.svg);
   background-repeat: no-repeat;
   background-size: 10px;
-  background-position: 20px center;
+  background-position: right center;
 }
 
 /*# sourceMappingURL=style.css.map */
